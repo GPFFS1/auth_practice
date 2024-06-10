@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap');
+
+h1 {
+    color: #FFF;
+    font-family: "Jolly Lodger";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.jolly {
+    font-family: "Jolly Lodger";
+}

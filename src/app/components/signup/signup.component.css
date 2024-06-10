@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap');
+
+h1 {
+    color: #FFF;
+    font-family: "Jolly Lodger";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.jolly {
+    font-family: "Jolly Lodger";
+}
+
+input {
+    background: transparent;
+    border-bottom: 1px solid #FFF;
+    height: 25px;
+}
+
+input[type="text"], input[type="password"] {
+    color: #FFF;
+    font-size: 20px;
+    font-family: "Jolly Lodger";
+    font-weight: 400;
+    line-height: normal;
+    width: 150%;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 20px;
+    position: relative;
+    bottom: 5px;
+}
+
+input:active, input:focus {
+    outline: none;
+    background: transparent;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #ffffff;
+    box-shadow: inset 0 0 20px 20px transparent;
+}
